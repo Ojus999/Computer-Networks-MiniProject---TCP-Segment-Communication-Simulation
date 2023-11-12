@@ -22,7 +22,7 @@ cd tcp-segment-communication-simulation
 Download The Files Locally And Follow As Given Below
 
 ## Compile the client and server programs
-gcc TCP-server.c -o server
+gcc TCP-server.c -o server <br />
 gcc TCP-client.c -o client
 
 ## Run the server
