@@ -30,3 +30,20 @@ gcc TCP-client.c -o client
 
 ## Run the client
 ./client 1234
+
+## Usage
+
+The client and server programs have interactive interfaces for inputting parameters and displaying allocated segment numbers and acknowledgments. Follow the on-screen prompts to initiate communication, request segment allocation, and simulate data transmission.
+
+## Algorithm
+
+An algorithm that determines how segment numbers are allocated based on the number of bytes transmitted by the client. Considered factors such as sequence numbers and acknowledgment numbers in the TCP header.
+
+## User Interface
+
+Created a simple user interface for both the client and server sides to input necessary parameters and displayed the allocated segment numbers and acknowledgment information.
+
+## Documentation
+
+Provided comprehensive documentation that includes the design rationale, algorithms used, implementation details, and instructions for running the simulation.
+
