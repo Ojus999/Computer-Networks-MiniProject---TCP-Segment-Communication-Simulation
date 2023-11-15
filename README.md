@@ -26,10 +26,10 @@ gcc TCP-server.c -o server <br />
 gcc TCP-client.c -o client
 
 ## Run the server
-./server 1234
+./server <Port Number>
 
 ## Run the client
-./client 1234
+./client <Port Number>
 
 ## Usage
 
